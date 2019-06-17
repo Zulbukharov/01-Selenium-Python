@@ -47,7 +47,6 @@ for i in range(len(functions)):
 
     button = browser.find_element_by_css_selector("button.btn")
     button.click()
-    # time.sleep(1)
     welcome_text_elt = browser.find_element_by_tag_name("h1")
     welcome_text = welcome_text_elt.text
     print(welcome_text)
