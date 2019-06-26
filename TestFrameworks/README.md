@@ -53,4 +53,7 @@ inversion
 or
 > pytest -m "smoke or regression" test_file.py
 
+parametres
+> @pytest.mark.parametrize('language', ["ru", "en-gb"])
+
 
